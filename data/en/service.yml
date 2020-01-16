@@ -4,16 +4,16 @@ service:
   title : Our Services
   service_Item :
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : WordPress Theme
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+      title : JavaScript consulting
+      content : JavaScript is the language of the internet, and we are experts. Whether it's Front-end, Backend, APIs, configuration or anything in between, we know a clear path for delivery.
       
-    - icon : ti-layout # themify icon pack : https://themify.me/themify-icons
-      title : Responsive Design
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - icon : ti-layout-grid3 # themify icon pack : https://themify.me/themify-icons
+      title : Architecture
+      content : Our people have worked on webstacks of both large Corporate and Govt clients in New Zealand and abroad. We can design and build a system fit for your purpose.
       
-    - icon : ti-blackboard # themify icon pack : https://themify.me/themify-icons
-      title : Media &amp; Advertisement
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+    - icon : ti-cloud # themify icon pack : https://themify.me/themify-icons
+      title : Cloud delivery
+      content : If you're looking at the cloud or have existing services that need some TLC, whether it's Amazon, Microsoft or Google based we can streamline your deployment and delivery.
       
     - icon : ti-palette # themify icon pack : https://themify.me/themify-icons
       title : Graphic Design
