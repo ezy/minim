@@ -6,23 +6,23 @@ service:
     - icon : ti-world # themify icon pack : https://themify.me/themify-icons
       title : JavaScript consulting
       content : JavaScript is the language of the internet, and we are experts. Whether it's Front-end, Backend, APIs, configuration or anything in between, we know a clear path for delivery.
-      
+
     - icon : ti-layout-grid3 # themify icon pack : https://themify.me/themify-icons
       title : Architecture
       content : Our people have worked on webstacks of both large Corporate and Govt clients in New Zealand and abroad. We can design and build a system fit for your purpose.
-      
+
     - icon : ti-cloud # themify icon pack : https://themify.me/themify-icons
       title : Cloud delivery
       content : If you're looking at the cloud or have existing services that need some TLC, whether it's Amazon, Microsoft or Google based we can streamline your deployment and delivery.
-      
-    - icon : ti-palette # themify icon pack : https://themify.me/themify-icons
-      title : Graphic Design
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
-    - icon : ti-package # themify icon pack : https://themify.me/themify-icons
-      title : Apps Development
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
-      
-    - icon : ti-pulse # themify icon pack : https://themify.me/themify-icons
-      title : Networking
-      content : Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus.Nullam iaculis arcu at mauris dapibus consectetur.
+
+    - icon : ti-layout-list-post # themify icon pack : https://themify.me/themify-icons
+      title : RESTful APIs
+      content : We design, document and deliver RESTful APIs for large orgs. Whether your stack is configured for micro-services or a monolith our experience saves time and money.
+
+    - icon : ti-html5 # themify icon pack : https://themify.me/themify-icons
+      title : Single Page Web apps
+      content : We've used React JS, Angular, and Ember in production. We're familiar with vue, svelte and JAMstack deployment.
+
+    - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
+      title : Mobile app dev
+      content : Get us to develop and deploy your React native or Ionic web app built for both Android and Apple with a single code base.
