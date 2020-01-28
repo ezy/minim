@@ -1,6 +1,6 @@
 ##################################### pricing ##############################
 pricing:
-  enable : true
+  enable : false
   title : Our Plans
   pricing_Table :
     # pricing table loop
@@ -15,7 +15,7 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-      
+
     # pricing table loop
     - title : Silver
       price : $149
@@ -28,7 +28,7 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-        
+
     # pricing table loop
     - title : Gold
       price : $199
@@ -41,7 +41,7 @@ pricing:
         - 1 GB Storage
         - 10 GB Bandwidth
         - 24/7 Tech Support
-        
+
     # pricing table loop
     - title : Platinum
       price : $299

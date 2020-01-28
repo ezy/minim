@@ -1,22 +1,22 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_Item : 
-    - icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      title : SEO Optimized
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-    - icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      title : Easy Customization
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  image : images/about/view.jpg
+  title : Precise, targeted, best in class technology.
+  content : "Our consultants specialise in light-weight open source solutions. You pay for the experience and delivery of best in class technology, with no hefty licensing."
+  feature_Item :
+    - icon : ti-unlock # themify icon pack : https://themify.me/themify-icons
+      title : Avoid Vendor Lock In
+      content : Streamline your technology so it's tailored specifically for your business. No hidden fees or licenses, just effective delivery to customers.
 
-    - icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      title : SEO Optimized
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-    - icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+    - icon : ti-location-pin # themify icon pack : https://themify.me/themify-icons
+      title : Avoid re-inventing wheels
+      content : Most requirements are common problems that have been solved before. We know the best, most sustainable delivery pathways.
+
+    - icon : ti-hummer # themify icon pack : https://themify.me/themify-icons
+      title : Best in class
+      content : We keep up to date with modern conventions, whilst being experienced in a wide variety of legacy integration.
+
+    - icon : ti-bar-chart # themify icon pack : https://themify.me/themify-icons
       title : Easy Customization
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Our solutions and code-bases are architected with tried and true patterns that scale.

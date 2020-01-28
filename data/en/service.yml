@@ -25,4 +25,4 @@ service:
 
     - icon : ti-mobile # themify icon pack : https://themify.me/themify-icons
       title : Mobile app dev
-      content : Get us to develop and deploy your React native or Ionic web app built for both Android and Apple with a single code base.
+      content : Get us to develop and deploy your React native or Ionic web app built for both Android and iOS with a single code base.
