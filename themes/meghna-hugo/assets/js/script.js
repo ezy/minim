@@ -267,13 +267,16 @@ jQuery(function ($) {
     var coords = [latitude, longitude]; // the geographic center of our map
     var zoomLevel = 3; // the map scale. See: http://wiki.openstreetmap.org/wiki/Zoom_levels
 
-    var map = L.map("map-canvas").setView(coords, zoomLevel);
+    var map = L.map("map-canvas", { scrollWheelZoom: false }).setView(
+      coords,
+      zoomLevel
+    );
     var tiles = "http://acetate.geoiq.com/tiles/acetate-hillshading/";
     L.tileLayer(tiles + "{z}/{x}/{y}.png", {
       attribution:
         'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://FortiusOne.com">FortiusOne</a> and <a href="http://stamen.com">Stamen</a>',
       maxZoom: 18
-		}).addTo(map);
+    }).addTo(map);
 		  // L.tileLayer("http://tiles.mapc.org/basemap/{z}/{x}/{y}.png", {
       //   attribution:
       //     'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
