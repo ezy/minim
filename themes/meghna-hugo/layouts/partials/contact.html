@@ -57,9 +57,7 @@
 	{{ if .map.enable }}
 	{{ with .map }}
 	{{"<!-- Google Map -->" | safeHTML}}
-	<div class="google-map">
 		<div id="map-canvas" data-latitude="{{ .mapLatitude }}" data-longitude="{{ .mapLongitude }}"></div>
-	</div>
 	{{ end }}
 	{{ end }}
 </section>

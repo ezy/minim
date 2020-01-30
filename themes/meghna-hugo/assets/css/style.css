@@ -749,8 +749,9 @@ a:hover {
   margin: 0;
 }
 
-.google-map #map-canvas {
+#map-canvas {
   height: 400px;
+  width: 100%;
 }
 
 .contact-info p {
