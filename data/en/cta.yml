@@ -2,9 +2,9 @@
 cta:
   enable : true
   bg_Image : "images/backgrounds/fern-bw.jpg"
-  title : "Great Design & Incredible Features"
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+  title : "Let us handle that for you"
+  content : "Stop worrying about the complexity of your legacy system, and how you're going to keep up with your customers demand for first class web technology"
   button:
     enable : true
-    label : "Contact us to discuss"
+    label : "Contact us today"
     link : "#contact"
