@@ -7,7 +7,7 @@ team:
     - image : images/team/team-3.jpg
       name : Ahiya Mohammed
       designation : System analysis/Testing
-      content : A distributeed system expert, Ahiya's experience is in making large complex enterprise systems stable and preictable.
+      content : A distributeed system expert, Ahiya's experience is Quality Assurance, making large complex enterprise systems stable and preictable.
       social_Icon :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/ahiya-yahya-mohammed-3a50074/"
@@ -22,16 +22,16 @@ team:
           link : "https://www.linkedin.com/in/andrew-nicolson-60725990/"
 
     # team member loop
-    - image : images/team/team-2.jpg
+    - image : images/team/ezra.jpg
       name : Ezra Keddell
       designation : Design Systems/SPA specialist
-      content : With broad knowledge of design, front-end, back-end and dev-ops, Ezra provides a long history of successful web project delivery.
+      content : With broad knowledge of design, front-end, back-end and dev-ops, Ezra brings a long history of on time, on budget project completion.
       social_Icon :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/ezrakeddell/"
 
     # team member loop
-    - image : images/team/team-4.jpg
+    - image : images/team/tim.jpg
       name : Dr. Tim Wright
       designation : Coding Architect
       content : A Doctor of computers who has delivered projects in just about every coding language that exists. Tim is a master craftsman.

@@ -1,7 +1,7 @@
 ################################# funfacts ##################################
 funfacts:
   enable : false
-  bg_Image : "images/backgrounds/bg-1.jpg"
+  bg_Image : "images/backgrounds/fern-bw.jpg"
   counter_Item:
     # counter item loop
     - title : "Happy Clients"
