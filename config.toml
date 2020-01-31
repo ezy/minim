@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
-title = "Meghna"
+baseURL = "https://minim.nz"
+title = "Minim | Web consulting, Javascript, React, Node | Wellington, NZ"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -75,7 +75,7 @@ URL = "plugins/wow/wow.min.js"
 
 ############################# Default Parameters ##########################
 [params]
-logo = "images/logo.png"
+logo = "images/minim-logo.svg"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
 author = "Themefisher"
@@ -87,7 +87,7 @@ postShare = true
 # preloader
 [params.preloader]
 enable = true
-preloader = "images/logo.png"
+preloader = "images/minim-logo.svg"
 
 ############################# social icons ##########################
 # [[params.social_Icon]]

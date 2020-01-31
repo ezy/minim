@@ -380,7 +380,6 @@ a:hover {
 }
 
 .logo {
-  margin-top: 10px;
   display: inline-block;
 }
 
@@ -414,6 +413,10 @@ a:hover {
 
 .navigation .logo {
   padding: 0;
+}
+
+.navigation .logo img {
+  height: 30px;
 }
 
 .navigation .navigation-menu li a.active {
