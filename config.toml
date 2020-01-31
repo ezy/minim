@@ -47,24 +47,24 @@ URL = "plugins/wow/wow.min.js"
   weight = 1
 
   [[menu.main]]
-  name = "Service"
+  name = "Services"
   URL = "services"
   weight = 2
 
-  [[menu.main]]
-  name = "Portfolio"
-  URL = "portfolio"
-  weight = 3
+  # [[menu.main]]
+  # name = "Portfolio"
+  # URL = "portfolio"
+  # weight = 3
 
   [[menu.main]]
   name = "Team"
   URL = "team"
   weight = 4
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 6
+  # [[menu.main]]
+  # name = "Blog"
+  # URL = "blog"
+  # weight = 6
 
   [[menu.main]]
   name = "Contact"
