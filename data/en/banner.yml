@@ -1,7 +1,7 @@
 ############################### Banner ################################
 banner:
   enable : true
-  bg_Image : "images/slider/paraglider.jpg"
+  bg_Image : "images/slider/view.jpg"
   icon : "" # themify icon pack : https://themify.me/themify-icons
   title : "Web consulting made simple"
   content : "When it comes to web delivery, simple shouldn't be hard. We specialise in advising on and delivering web tech that will make your large organisation fast and effective."

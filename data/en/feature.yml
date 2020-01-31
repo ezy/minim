@@ -1,7 +1,7 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/view.jpg
+  image : images/about/paraglider.jpg
   title : Precise, targeted, best in class technology.
   content : "Our consultants specialise in light-weight open source solutions. You pay for the experience and delivery of best in class technology, with no hefty licensing."
   feature_Item :
