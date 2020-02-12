@@ -30,9 +30,6 @@
 {{"<!-- Essential Scripts -->" | safeHTML}}
 {{"<!-- Google Map API -->" | safeHTML}}
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ if $data.contact.contact.map.enable }}
-<script type="text/javascript"  src="{{ $data.contact.contact.map.gmapAPI | absURL }}"></script>
-{{ end }}
 {{ "<!-- JS Plugins -->" | safeHTML }}
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>

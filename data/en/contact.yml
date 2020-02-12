@@ -6,8 +6,7 @@ contact:
   content : Get in touch via our contact form below, or give us a call.
   form_Action: "https://mailthis.to/ezrakeddell@gmail.com" #contact form works with https://formspree.io
   map:
-    enable : false
-    gmapAPI : "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+    enable : true
     mapLatitude : -41.2818903
     mapLongitude: 174.7739368
 
