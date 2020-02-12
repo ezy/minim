@@ -262,28 +262,21 @@ jQuery(function ($) {
 	// }
 
 	function initialize() {
-    var latitude = $("#map-canvas").attr("data-latitude");
+		var latitude = $("#map-canvas").attr("data-latitude");
 		var longitude = $("#map-canvas").attr("data-longitude");
-    var coords = [latitude, longitude]; // the geographic center of our map
-    var zoomLevel = 3; // the map scale. See: http://wiki.openstreetmap.org/wiki/Zoom_levels
+		var coords = [latitude, longitude]; // the geographic center of our map
+		var zoomLevel = 14; // the map scale. See: http://wiki.openstreetmap.org/wiki/Zoom_levels
 
-    var map = L.map("map-canvas", { scrollWheelZoom: false }).setView(
-      coords,
-      zoomLevel
-    );
-    var tiles = "http://acetate.geoiq.com/tiles/acetate-hillshading/";
-    L.tileLayer(tiles + "{z}/{x}/{y}.png", {
-      attribution:
-        'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery &copy; <a href="http://FortiusOne.com">FortiusOne</a> and <a href="http://stamen.com">Stamen</a>',
-      maxZoom: 18
-    }).addTo(map);
-		  // L.tileLayer("http://tiles.mapc.org/basemap/{z}/{x}/{y}.png", {
-      //   attribution:
-      //     'Tiles by <a href="http://mapc.org">MAPC</a>, Data by <a href="http://mass.gov/mgis">MassGIS</a>',
-      //   maxZoom: 17,
-      //   minZoom: 9
-      // }).addTo(map);
-  }
+		var map = L.map("map-canvas", { scrollWheelZoom: false }).setView(
+			coords,
+			zoomLevel
+		);
+		var tiles = "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png";
+		L.tileLayer(tiles, {
+			maxZoom: 17,
+			minZoom: 3
+		}).addTo(map);
+	}
 
-	google.maps.event.addDomListener(window, "load", initialize)
+	window.onload = initialize;
 });
