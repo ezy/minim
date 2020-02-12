@@ -20,6 +20,8 @@ URL = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
 URL = "plugins/animate-css/animate.css"
 [[params.plugins.css]]
+URL = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
 URL = "plugins/slick/slick.css"
 
 # js plugins
@@ -31,6 +33,8 @@ URL = "plugins/bootstrap/bootstrap.min.js"
 URL = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 URL = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+URL = "plugins/magnific-popup/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
 URL = "plugins/wow/wow.min.js"
 
