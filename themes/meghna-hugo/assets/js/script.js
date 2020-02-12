@@ -265,7 +265,7 @@ jQuery(function ($) {
 		var latitude = $("#map-canvas").attr("data-latitude");
 		var longitude = $("#map-canvas").attr("data-longitude");
 		var coords = [latitude, longitude]; // the geographic center of our map
-		var zoomLevel = 14; // the map scale. See: http://wiki.openstreetmap.org/wiki/Zoom_levels
+		var zoomLevel = 16; // the map scale. See: http://wiki.openstreetmap.org/wiki/Zoom_levels
 
 		var map = L.map("map-canvas", { scrollWheelZoom: false }).setView(
 			coords,
@@ -273,7 +273,7 @@ jQuery(function ($) {
 		);
 		var tiles = "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png";
 		L.tileLayer(tiles, {
-			maxZoom: 17,
+			maxZoom: 20,
 			minZoom: 3
 		}).addTo(map);
 	}

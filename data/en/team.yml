@@ -7,7 +7,7 @@ team:
     - image : images/team/team-3.jpg
       name : Ahiya Mohammed
       designation : System analysis/Testing
-      content : A distributeed system expert, Ahiya's experience is Quality Assurance, making large complex enterprise systems stable and preictable.
+      content : A distributeed system expert, Ahiya's experience is Quality Assurance, making large complex enterprise systems stable and predictable.
       social_Icon :
         - icon : ti-linkedin # themify icon pack : https://themify.me/themify-icons
           link : "https://www.linkedin.com/in/ahiya-yahya-mohammed-3a50074/"
