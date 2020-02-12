@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://minim.nz.s3-website-us-west-2.amazonaws.com/"
+baseURL = "http://minim.nz.s3-website-us-west-2.amazonaws.com"
 title = "Minim | Web consulting, Javascript, React, Node | Wellington, NZ"
 theme = "meghna-hugo"
 # post pagination
