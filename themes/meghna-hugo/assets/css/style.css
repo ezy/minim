@@ -1076,10 +1076,12 @@ a:hover {
 .member-photo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  filter: grayscale(0%);
 }
 
 .member-photo img {
   transition: all 0.4s ease 0s;
+  filter: grayscale(100%);
 }
 
 @media (max-width: 768px) {

@@ -4,7 +4,7 @@ team:
   title : Our Team
   team_Member :
       # team member loop
-    - image : images/team/team-3.jpg
+    - image : images/team/ahiya.jpg
       name : Ahiya Mohammed
       designation : System analysis/Testing
       content : A distributeed system expert, Ahiya's experience is Quality Assurance, making large complex enterprise systems stable and predictable.
@@ -13,7 +13,7 @@ team:
           link : "https://www.linkedin.com/in/ahiya-yahya-mohammed-3a50074/"
 
     # team member loop
-    - image : images/team/team-1.jpg
+    - image : images/team/andrew.jpg
       name : Andrew Nicholson
       designation : Solutions Architect
       content : With a deep knowledge of hardware and software, Andrew is our resident expert on the what and how of big web delivery.
